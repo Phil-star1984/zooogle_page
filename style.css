@@ -1,0 +1,71 @@
+ body {
+  font-family: 'Noto Sans JP', sans-serif;
+  }
+
+  #navigation {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  }
+
+  .navigation-left {
+  display: flex;
+  flex-direction:row
+  }
+
+  .inner_leftbox {
+  padding: 10px;}
+
+  .navigation-right {
+  display: flex;
+  flex-direction:row
+  }
+
+  .inner_rightbox {
+  padding: 10px;}
+
+  .main {
+  width: 100%;
+  height:500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .zooogle-logo, h1 {
+  font-size: 90px;
+  margin: 10px;
+  }
+
+  #gsearch {
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 20px 20px;
+    background: #dfdfdf;
+  }
+
+
+  .footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 15px;
+ position: fixed;
+  padding: .6em;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  }
+
+  .footer_content {
+ margin: 5px;
+  color: white;
+ }
